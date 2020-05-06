@@ -1,0 +1,49 @@
+.myOwnBrand {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 2em;
+}
+
+.myOwnLogo {
+  font-size: 1.5em;
+}
+
+.ueberschriften {
+  text-align: center;
+}
+
+.hauptcontainer {
+  width: 80%;
+  margin: auto;
+}
+
+.fusszeile {
+  width: 100%;
+  text-align: center;
+}
+
+.kalendar {
+  margin: auto;
+  display: block;
+}
+
+.boogie {
+  flex: none;
+  width: 300px;
+  height: 261px;
+}
+
+.wirFoto {
+  flex: none;
+  width: 300px;
+  height: 278px;
+  border-radius: 50%;
+  padding-right: 30px;
+}
+
+.lizzie {
+  flex: none;
+  width: 254px;
+  height: 300px;
+  margin-top: 50px;
+  padding-right: 30px;
+}
