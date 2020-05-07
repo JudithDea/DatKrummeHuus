@@ -22,6 +22,10 @@
 .fusszeile {
   width: 100%;
   text-align: center;
+  font-size: 0.8em;
+}
+.fusszeile ul {
+  list-style-type: none;
 }
 
 .kalendar {
