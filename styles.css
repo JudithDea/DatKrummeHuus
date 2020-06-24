@@ -5,6 +5,10 @@
   font-size: 1.5em;
 }
 
+.myOwnBrand a:link {
+  text-decoration: none;
+}
+
 .myOwnLogo {
   font-size: 1.8em;
 }
@@ -54,4 +58,14 @@
 .iconSize {
   font-size: 50px;
   padding: 0 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .logoGif {
+    display: none;
+  }
+
+  .hamburger {
+    text-align: center;
+  }
 }
