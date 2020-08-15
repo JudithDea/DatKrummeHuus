@@ -64,6 +64,11 @@
   padding: 0 50px;
 }
 
+.link-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
 @media screen and (max-width: 600px) {
   .logoGif {
     display: none;
