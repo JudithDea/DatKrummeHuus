@@ -62,9 +62,22 @@
 
       <div class="collapse navbar-collapse" id="collapse_target">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item pr-2">
-            <a class="nav-link" href="#haus">Das Haus</a>
+          <li class="nav-item dropdown pr-2">
+            <a class="nav-link dropdown-toggle" href="#haus" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Das Haus
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#galerie">Galerie</a>
+
+            </div>
           </li>
+
+
+
+          <!-- <li class="nav-item pr-2">
+            <a class="nav-link dropdown" href="#haus">Das Haus</a>
+            <a class="dropdown-item" href="#">Action</a>
+          </li> -->
           <li class="nav-item pr-2">
             <a class="nav-link" href="#hund">Urlaub mit Hund</a>
           </li>
@@ -87,7 +100,7 @@
     <!-- MAIN CONTAINER -->
     <div class="hauptcontainer align-self-center col-md-9">
       <section class="ueberschriften myOwnBrand pt-4">
-        ... l&auml;dt zum erholen ein!
+        <a  name="galerie">... l&auml;dt zum erholen ein!</a>
       </section>
 
       <!-- ++++++ ANFANG BILDERGALERIE ++++++ -->
