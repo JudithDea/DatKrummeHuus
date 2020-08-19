@@ -38,6 +38,10 @@
   font-size: 0.8em;
 }
 
+a {
+  padding-top: 145px;
+}
+
 .kalendar {
   margin: auto;
   display: block;
@@ -70,6 +74,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  a {
+    padding-top: 100px;
+  }
+
   .logoGif {
     display: none;
   }
