@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.myButton {
+  text-align: center;
+}
+
 .myOwnBrand {
   font-family: "Shadows Into Light", cursive;
   font-size: 1.5em;
@@ -43,7 +47,7 @@
 }
 
 a {
-  padding-top: 145px;
+  padding-top: 150px;
 }
 
 .kalendar {
