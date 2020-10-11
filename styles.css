@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap");
 
+.coronaVirus {
+  text-align: center;
+}
+
 .myOwnBrand {
   font-family: "Shadows Into Light", cursive;
   font-size: 1.5em;
