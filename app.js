@@ -1,3 +1,4 @@
+// hamburger toggle according to bootstrap documentation
 $(document).on("click", ".navbar-collapse.show", function (e) {
   $(this).collapse("hide");
 });
@@ -16,8 +17,10 @@ for (j = 1; j <= numberOfImages; j++){
     images.push("http://datkrummehuus.de/img/haus"+j+".jpg");
 }
 
+// populate slideshow beginning with first image
 document.slide.src = images[i];
 
+// functionality for prev and next buttons
 prevBtn.addEventListener("click", () => {
         if (i > 0){
             i--;
@@ -39,7 +42,7 @@ nextBtn.addEventListener("click", () => {
 });
 
 
-// change image
+// change image automatically
 function changeImg(){
     document.slide.src = images[i];
     if(i < images.length -1){
