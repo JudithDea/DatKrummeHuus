@@ -136,6 +136,12 @@ a {
   .slideshow-container .slide-container {
     width: 80%;
   }
+
+  .ueberschriften {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -149,9 +155,19 @@ a {
 
   .hamburger {
     text-align: center;
+    margin: auto;
+  }
+
+  .hauptcontainer {
+    width: 95%;
   }
 
   .slideshow-container .slide-container {
-    width: 85%;
+    width: 100%;
+  }
+
+  .next-btn,
+  .prev-btn {
+    width: 25%;
   }
 }
