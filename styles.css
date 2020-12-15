@@ -40,15 +40,52 @@
   margin: auto;
 }
 
-/* SLIDESHOW */
+/* GUTSCHEIN MODAL ANFANG */
+.gutscheinModal {
+  position: fixed;
+  z-index: 5;
+  /* left: 0;
+  top: 0; */
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
+.gutscheinModal-content {
+  background-color: #f4f4f4;
+  margin: 10% auto;
+  padding: 20px;
+  width: 70%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#close {
+  padding: 5px;
+  border-radius: 5px;
+  color: #dbd7d2;
+  float: right;
+  font-size: 30px;
+  border: none;
+}
+
+#close:hover,
+#close:focus {
+  color: #696969;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* GUTSCHEIN MODAL ENDE */
+
+/* SLIDESHOW */
 .slideshow-container .slide-container {
   width: 65%;
   margin: auto;
 }
 
 .slide-container {
-  /* cursor: zoom-in; */
+  /* cursor: pointer; */
 }
 
 .slide-container img {
