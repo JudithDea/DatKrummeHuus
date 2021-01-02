@@ -4,16 +4,16 @@ $(document).on("click", ".navbar-collapse.show", function (e) {
 });
 
 
-// GUTSCHEIN MODAL ANFANG
-let closeButton = document.getElementById("close");
-let modal = document.getElementById("simpleGutscheinModal");
+// // GUTSCHEIN MODAL ANFANG
+// let closeButton = document.getElementById("close");
+// let modal = document.getElementById("simpleGutscheinModal");
 
-closeButton.addEventListener("click", closeModal);
+// closeButton.addEventListener("click", closeModal);
 
-function closeModal(){
-    modal.style.display = "none";
-}
-// GUTSCHEIN MODAL ENDE
+// function closeModal(){
+//     modal.style.display = "none";
+// }
+// // GUTSCHEIN MODAL ENDE
 
 let i = 0; // start point for slideshow
 let numberOfImages = 34; // that's simply the number of haus images in the folder
